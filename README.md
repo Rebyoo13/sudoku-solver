@@ -18,11 +18,12 @@ Link to project: [https://github.com/Rebyoo13/sudoku-solver](https://github.com/
 
 ---
 
-##Usage
+## Usage
 
 ### 1. Rezolvare in consola
 ```bash
 python rows_col.py
+````
 
 * Introdu fiecare rand al Sudoku ca un sir de 9 cifre.
 * Foloseste `0` pentru celulele goale.
@@ -47,17 +48,21 @@ python autogui.py
 
 > ⚠️ Atentie: Inainte de a rula `autogui.py`, nu folosi mouse-ul sau tastatura in timp ce scriptul scrie solutia, altfel poate da gres.
 
-
+---
 
 ## Lessons Learned
-- Intelegerea algoritmului de backtracking.  
-- Automatizarea tastaturii si mouse-ului cu PyAutoGUI.  
-- Structurarea unui proiect Python si creare README clar si profesional.  
+
+* Intelegerea algoritmului de backtracking.
+* Automatizarea tastaturii si mouse-ului cu PyAutoGUI.
+* Structurarea unui proiect Python si creare README clar si profesional.
 
 ---
 
 ## Contact
-Rebyoo13 – [rebecadinu13@yahoo.com](mailto:rebecadinu13@yahoo.com)  
+
+Rebyoo13 – [rebecadinu13@yahoo.com](mailto:rebecadinu13@yahoo.com)
 Project Link: [https://github.com/Rebyoo13/sudoku-solver](https://github.com/Rebyoo13/sudoku-solver)
+
+````
 
 
