@@ -24,9 +24,9 @@ Link to project: [https://github.com/Rebyoo13/sudoku-solver](https://github.com/
 python rows_col.py
 ````
 
-*Enter each row of the Sudoku puzzle as a 9-digit number.
-*Use 0 for empty cells.
-*Example for a row:
+* Enter each row of the Sudoku puzzle as a 9-digit number.
+* Use 0 for empty cells.
+* Example for a row:
 
 ```
 040000000
@@ -40,10 +40,10 @@ python rows_col.py
 python autogui.py
 ```
 
-*Open Sudoku.com or any other Sudoku application where you want to input the solution.
-*Enter each row one by one (e.g., 040000000).
-*Make sure the top-left cell is selected (cursor active).
-*After all 9 rows, the script will solve the puzzle and automatically input the solution into the application by simulating key presses and navigating between cells.
+* Open Sudoku.com or any other Sudoku application where you want to input the solution.
+* Enter each row one by one (e.g., 040000000).
+* Make sure the top-left cell is selected (cursor active).
+* After all 9 rows, the script will solve the puzzle and automatically input the solution into the application by simulating key presses and navigating between cells.
 > Warning: Do not use the mouse or keyboard while `autogui.py` is running, or the automation may fail.
 ---
 
