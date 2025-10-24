@@ -1,4 +1,4 @@
-# Sudoku Solver 🧩
+# Sudoku Solver 
 
 Un proiect Python care rezolva automat Sudoku folosind backtracking.  
 Include doua variante: `rows_col.py` (rezolvare in consola) si `autogui.py` (scrie automat solutia intr-o aplicatie externa).  
@@ -55,10 +55,6 @@ python autogui.py
 * Intelegerea algoritmului de backtracking.
 * Automatizarea tastaturii si mouse-ului cu PyAutoGUI.
 * Structurarea unui proiect Python si creare README clar si profesional.
-
----
-
-## Contact
 
 Rebyoo13 – [rebecadinu13@yahoo.com](mailto:rebecadinu13@yahoo.com)
 Project Link: [https://github.com/Rebyoo13/sudoku-solver](https://github.com/Rebyoo13/sudoku-solver)
