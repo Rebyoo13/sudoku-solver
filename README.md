@@ -60,5 +60,3 @@ Rebyoo13 – [rebecadinu13@yahoo.com](mailto:rebecadinu13@yahoo.com)
 Project Link: [https://github.com/Rebyoo13/sudoku-solver](https://github.com/Rebyoo13/sudoku-solver)
 
 ````
-
-
