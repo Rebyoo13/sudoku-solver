@@ -24,15 +24,25 @@ Link to project: [https://github.com/Rebyoo13/sudoku-solver](https://github.com/
 python rows_col.py
 ````
 
-* Enter each row of the Sudoku puzzle as a 9-digit number.
-* Use 0 for empty cells.
-* Example for a row:
+* Define your Sudoku puzzle as a 9x9 matrix called 'grid'.
+* Use 0 for empty cells that need to be filled.
+* Example of grid format
 
 ```
-040000000
+grid = [
+    [5, 3, 0, 0, 7, 0, 0, 0, 0],
+    [6, 0, 0, 1, 9, 5, 0, 0, 0],
+    [0, 9, 8, 0, 0, 0, 0, 6, 0],
+    [8, 0, 0, 0, 6, 0, 0, 0, 3],
+    [4, 0, 0, 8, 0, 3, 0, 0, 1],
+    [7, 0, 0, 0, 2, 0, 0, 0, 6],
+    [0, 6, 0, 0, 0, 0, 2, 8, 0],
+    [0, 0, 0, 4, 1, 9, 0, 0, 5],
+    [0, 0, 0, 0, 8, 0, 0, 7, 9]
+]
 ```
 
-* After entering all 9 rows, the script will compute and display the solution in the console.
+* Run the script: it will solve the Sudoku and output the solution.
 
 ### 2. Automatic Input Mode
 
@@ -40,10 +50,11 @@ python rows_col.py
 python autogui.py
 ```
 
-* Open Sudoku.com or any other Sudoku application where you want to input the solution.
-* Enter each row one by one (e.g., 040000000).
-* Make sure the top-left cell is selected (cursor active).
-* After all 9 rows, the script will solve the puzzle and automatically input the solution into the application by simulating key presses and navigating between cells.
+1. Open Sudoku.com or any other Sudoku application where you want to input the solution.
+2. Enter all 9 rows of the puzzle manually (use 0 for empty cells, for example: 040000000).
+3. Make sure the top-left cell of the Sudoku grid is selected (cursor active) in the application.
+4. Run this script. It will solve the puzzle and automatically input the solution into the application
+   by simulating key presses and navigating between cells.
 > Warning: Do not use the mouse or keyboard while `autogui.py` is running, or the automation may fail.
 ---
 
